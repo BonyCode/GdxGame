@@ -3,7 +3,7 @@ plugins {
     `java-library`
     id("maven-publish")                 // Плагин для публикации в Nexus
     id("checkstyle")                    // Плагин для проверки стиля кода
-    id("io.freefair.lombok") version "6.0.0-m2" // Плагин Lombok для упрощения кода
+    id("io.freefair.lombok") version "8.10.2" // Плагин Lombok для упрощения кода
 }
 
 allprojects {
