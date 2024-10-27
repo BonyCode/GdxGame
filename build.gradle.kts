@@ -27,8 +27,8 @@ allprojects {
         testRuntimeOnly(rootProject.libs.junit.jupiter.engine)
 
         // Lombok для упрощения кода
-        implementation("org.projectlombok:lombok:1.18.22")
-        annotationProcessor("org.projectlombok:lombok:1.18.22")
+        implementation("org.projectlombok:lombok:1.18.34")
+        annotationProcessor("org.projectlombok:lombok:1.18.34")
     }
 }
 
